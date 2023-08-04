@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background-image:url('./moun.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 90%;
+    height: 100vh;
+    background-color: white;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 40px;
+    border-bottom: 2px solid gray;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+#ul{
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#ul img{
+    width: 80px;
+}
+#ul li a{
+    color: black;
+    text-decoration: none;
+}
+#ul2{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#ul2 button{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+.iceland{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 10px;
+}
+.iceland ul{
+    width: 320px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.iceland ul li img{
+    width: 60px;
+}
+.btns{
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    background: transparent;
+    border:  1px solid black;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    background: transparent;
+    border:  1px solid black;
+}
+.iceland i{
+    font-size: 8px;
+}
+.scenic{
+    width: 100%;
+    height: auto;
+    padding-block: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sci{
+    width: 70%;
+    height: auto;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    padding-left: 100px;
+}
+.sci h1{
+    font-size: 100px;
+}
+.get{
+    width: 30%;
+    height: auto;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+.get p{
+    width: 70%;
+
+}
+.get span{
+    display: block;
+    margin-top:10px;
+}
+.geet {
+     margin-top: 10px;
+     width: 150px;
+
+     height: 50px;
+     background-color: black;
+     border:none;
+     border-radius: 30px;
+     color: white;
+}
+.git{
+/* margin-top: 10px; */
+width: 50px;
+height: 50px;
+background-color: black;
+border:none;
+border-radius: 50%;
+color: white;
+
+}
+.about{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-block: 30px;
+    padding-inline: 50px;
+}
+.one{
+    width: 20%;
+    height: auto;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+#para{
+ width: 70%;
+    margin-top: 20px;
+}
+#span{
+    margin-top: 10px;
+}
+.one h5{
+    margin-top: 20px;
+}
+.one button{
+    width: 90px;
+    height: 30px;
+    background: transparent;
+    border: none;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-top: 5px;
+}
+.two{
+    width: 40%;
+    height: 300px;
+    background-image: url('./moun.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.three{
+    width: 40%;
+    height: auto;
+    padding-inline: 80px;
+    
+}
+.three img{
+width:300px;
+}
+.div{
+    width: 80%;
+    height: 40px;
+    display: flex;
+}
+.div1{
+    width: 100%;
+    height: auto;
+    /* display: flex; */
+}
+.three hr{
+    width: 60%;
+}
+.three ul{
+    list-style: none;
+}
+.three button{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50%;
+
+}
+.div1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.div1 ul{
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.div-1{
+    width: 400px;
+    height: 40px;
+    background-color: rgb(225, 221, 221);
+    position: absolute;
+    bottom: -20px;
+    left: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+justify-content: center;    
+}
+.div-1 ul{
+    width: 380px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.div-1 ul li a{
+    color: black;
+    text-decoration: none;
+}
+.div1 span{
+    margin-top: 20px;
+}
+.two button{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    border: none;
+    margin-top: 30px;
+    
+}
+
+/* Responsi
+.ve */
+@media(max-width:768px){
+    .main-container{
+        width: 100%;
+        height: auto;
+    }
+    .container{
+        width: 100%;
+        height: auto;
+    }
+    .scenic{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .sci{
+        
+        width: 100%;
+        height: auto;
+        padding-left: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .sci h1{
+        font-size: 40px;
+    }
+    .get{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .about{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .one{
+        width: 100%;
+        height: auto;
+    }
+    .two{
+        width: 100%;
+        height: 300px;
+        margin-top: 20px;
+    }
+    .three{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        padding-left: 0;
+    }
+    nav{
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+    nav ul li a{
+        display: none;
+
+    }
+    nav ul li button{
+        display: none;
+    }
+    nav ul li h5{
+        display: none;
+    }
+    .div-1{
+        display: none;
+    }
+}
